@@ -1,0 +1,1 @@
+same size 600x800   identical pixels: 475788/480000   PSNR: 34.5 dB   SSIM: 0.970   max |diff|: 147

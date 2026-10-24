@@ -1,0 +1,7 @@
+plan segments: 88   framebuffer 600x800   iters 20
+zoom    forward (ms)    backward (ms)   ratio (bwd/fwd)
+1x      1.499           973.303         649.1x
+10x     2.687           600.734         223.5x
+
+Interpret: forward cost tracks total segment length (pixels drawn);
+backward cost tracks pixels x segments and is ~flat in zoom.

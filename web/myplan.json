@@ -1,0 +1,583 @@
+{
+ "name": "Prambanan Temple Park -- site plan traced from the official 'Prambanan Maps' image (v2)",
+ "units": "metres",
+ "note": "y is UP (survey convention); plan.mjs flips it to screen y-down. Traced by eye from prambanan_map.jpg (1080x1920 px). The map has NO scale bar: k=0.57 m/px assumes the Zone-1 yellow square (196 px) is ~111 m.",
+ "source_image": "prambanan_map.jpg",
+ "trace_scale_m_per_image_px": 0.57,
+ "canvas_px": [
+  600,
+  800
+ ],
+ "scale_px_per_m": 1.18,
+ "origin_m": [
+  1.0,
+  1.0
+ ],
+ "background": [
+  245,
+  245,
+  245
+ ],
+ "legend": {
+  "wall": "Batas taman & pagar Zone 1",
+  "cella": "Candi utama Roro Jonggrang",
+  "stair": "Fasilitas & pintu masuk (loket, parkir, museum, teater)",
+  "shrine": "Candi Sewu, Bubrah, Lumbung",
+  "axis": "Sumbu, jalan utama & Sungai Opak"
+ },
+ "polylines": [
+  {
+   "id": "park_boundary",
+   "category": "wall",
+   "closed": true,
+   "points": [
+    [
+     258.2,
+     634.4
+    ],
+    [
+     399.0,
+     634.4
+    ],
+    [
+     400.1,
+     380.8
+    ],
+    [
+     416.1,
+     323.8
+    ],
+    [
+     498.7,
+     16.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     79.8,
+     303.8
+    ],
+    [
+     258.2,
+     335.2
+    ]
+   ]
+  },
+  {
+   "id": "zone1_enclosure",
+   "category": "wall",
+   "closed": true,
+   "points": [
+    [
+     192.1,
+     222.9
+    ],
+    [
+     303.8,
+     222.9
+    ],
+    [
+     303.8,
+     111.7
+    ],
+    [
+     192.1,
+     111.7
+    ]
+   ]
+  },
+  {
+   "id": "roro_platform",
+   "category": "cella",
+   "closed": true,
+   "points": [
+    [
+     208.0,
+     208.6
+    ],
+    [
+     287.8,
+     208.6
+    ],
+    [
+     287.8,
+     130.0
+    ],
+    [
+     208.0,
+     130.0
+    ]
+   ]
+  },
+  {
+   "id": "roro_inner_court",
+   "category": "cella",
+   "closed": true,
+   "points": [
+    [
+     229.1,
+     188.7
+    ],
+    [
+     263.3,
+     188.7
+    ],
+    [
+     263.3,
+     148.8
+    ],
+    [
+     229.1,
+     148.8
+    ]
+   ]
+  },
+  {
+   "id": "roro_main_cella",
+   "category": "cella",
+   "closed": true,
+   "points": [
+    [
+     235.4,
+     181.3
+    ],
+    [
+     257.6,
+     181.3
+    ],
+    [
+     257.6,
+     155.6
+    ],
+    [
+     235.4,
+     155.6
+    ]
+   ]
+  },
+  {
+   "id": "ticketing_car_park",
+   "category": "stair",
+   "closed": true,
+   "points": [
+    [
+     356.2,
+     144.2
+    ],
+    [
+     470.2,
+     144.2
+    ],
+    [
+     470.2,
+     44.5
+    ],
+    [
+     356.2,
+     44.5
+    ]
+   ]
+  },
+  {
+   "id": "ticketing_gate",
+   "category": "stair",
+   "closed": true,
+   "points": [
+    [
+     379.0,
+     134.5
+    ],
+    [
+     410.4,
+     134.5
+    ],
+    [
+     410.4,
+     110.0
+    ],
+    [
+     379.0,
+     110.0
+    ]
+   ]
+  },
+  {
+   "id": "management_office",
+   "category": "stair",
+   "closed": true,
+   "points": [
+    [
+     301.0,
+     62.7
+    ],
+    [
+     342.0,
+     62.7
+    ],
+    [
+     342.0,
+     27.4
+    ],
+    [
+     301.0,
+     27.4
+    ]
+   ]
+  },
+  {
+   "id": "mosque_restaurant",
+   "category": "stair",
+   "closed": true,
+   "points": [
+    [
+     401.8,
+     249.7
+    ],
+    [
+     424.6,
+     249.7
+    ],
+    [
+     424.6,
+     209.8
+    ],
+    [
+     401.8,
+     209.8
+    ]
+   ]
+  },
+  {
+   "id": "archaeological_museum",
+   "category": "stair",
+   "closed": true,
+   "points": [
+    [
+     332.3,
+     309.5
+    ],
+    [
+     379.0,
+     309.5
+    ],
+    [
+     379.0,
+     269.6
+    ],
+    [
+     332.3,
+     269.6
+    ]
+   ]
+  },
+  {
+   "id": "kindergarten",
+   "category": "stair",
+   "closed": true,
+   "points": [
+    [
+     256.5,
+     309.5
+    ],
+    [
+     322.0,
+     309.5
+    ],
+    [
+     322.0,
+     275.3
+    ],
+    [
+     256.5,
+     275.3
+    ]
+   ]
+  },
+  {
+   "id": "archaeological_office",
+   "category": "stair",
+   "closed": true,
+   "points": [
+    [
+     214.9,
+     334.0
+    ],
+    [
+     243.4,
+     334.0
+    ],
+    [
+     243.4,
+     306.7
+    ],
+    [
+     214.9,
+     306.7
+    ]
+   ]
+  },
+  {
+   "id": "theatre_compound",
+   "category": "stair",
+   "closed": true,
+   "points": [
+    [
+     55.9,
+     193.8
+    ],
+    [
+     126.5,
+     193.8
+    ],
+    [
+     126.5,
+     75.8
+    ],
+    [
+     55.9,
+     75.8
+    ]
+   ]
+  },
+  {
+   "id": "gardening_office",
+   "category": "stair",
+   "closed": true,
+   "points": [
+    [
+     130.0,
+     60.4
+    ],
+    [
+     140.8,
+     60.4
+    ],
+    [
+     140.8,
+     46.7
+    ],
+    [
+     130.0,
+     46.7
+    ]
+   ]
+  },
+  {
+   "id": "sewu_temple",
+   "category": "shrine",
+   "closed": true,
+   "points": [
+    [
+     280.4,
+     597.4
+    ],
+    [
+     361.9,
+     597.4
+    ],
+    [
+     361.9,
+     513.0
+    ],
+    [
+     280.4,
+     513.0
+    ]
+   ]
+  },
+  {
+   "id": "sewu_central",
+   "category": "shrine",
+   "closed": true,
+   "points": [
+    [
+     304.4,
+     567.7
+    ],
+    [
+     337.4,
+     567.7
+    ],
+    [
+     337.4,
+     534.7
+    ],
+    [
+     304.4,
+     534.7
+    ]
+   ]
+  },
+  {
+   "id": "bubrah_temple",
+   "category": "shrine",
+   "closed": true,
+   "points": [
+    [
+     315.8,
+     438.9
+    ],
+    [
+     338.6,
+     438.9
+    ],
+    [
+     338.6,
+     417.8
+    ],
+    [
+     315.8,
+     417.8
+    ]
+   ]
+  },
+  {
+   "id": "lumbung_temple",
+   "category": "shrine",
+   "closed": true,
+   "points": [
+    [
+     312.4,
+     362.5
+    ],
+    [
+     340.9,
+     362.5
+    ],
+    [
+     340.9,
+     339.7
+    ],
+    [
+     312.4,
+     339.7
+    ]
+   ]
+  },
+  {
+   "id": "north_axis",
+   "category": "axis",
+   "closed": false,
+   "points": [
+    [
+     319.2,
+     553.5
+    ],
+    [
+     326.0,
+     428.6
+    ],
+    [
+     326.6,
+     351.1
+    ]
+   ]
+  },
+  {
+   "id": "causeway_to_ticketing",
+   "category": "axis",
+   "closed": false,
+   "points": [
+    [
+     303.8,
+     168.7
+    ],
+    [
+     392.2,
+     168.7
+    ],
+    [
+     400.7,
+     134.5
+    ]
+   ]
+  },
+  {
+   "id": "road_south",
+   "category": "axis",
+   "closed": false,
+   "points": [
+    [
+     139.6,
+     69.5
+    ],
+    [
+     342.0,
+     69.5
+    ]
+   ]
+  },
+  {
+   "id": "road_middle",
+   "category": "axis",
+   "closed": false,
+   "points": [
+    [
+     243.4,
+     275.3
+    ],
+    [
+     399.0,
+     266.8
+    ]
+   ]
+  },
+  {
+   "id": "opak_river",
+   "category": "axis",
+   "closed": false,
+   "points": [
+    [
+     168.1,
+     343.7
+    ],
+    [
+     160.7,
+     278.2
+    ],
+    [
+     139.6,
+     204.1
+    ],
+    [
+     116.8,
+     135.7
+    ],
+    [
+     91.2,
+     78.7
+    ],
+    [
+     62.7,
+     21.7
+    ],
+    [
+     53.0,
+     1.1
+    ]
+   ]
+  }
+ ],
+ "silhouette": {
+  "points": [
+   [
+    208.0,
+    208.6
+   ],
+   [
+    287.8,
+    208.6
+   ],
+   [
+    287.8,
+    130.0
+   ],
+   [
+    208.0,
+    130.0
+   ]
+  ]
+ }
+}

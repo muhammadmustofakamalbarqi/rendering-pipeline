@@ -1,0 +1,7 @@
+== evidence: two triangles tiling a 6x6 quad along y = x ==
+naive >=0 (no rule)        once=30  twice=6  gaps=0
+strict >0 (no rule)        once=30  twice=0  gaps=6
+top-left rule              once=36  twice=0  gaps=0
+
+root cause : pixels whose centre lies exactly on the shared edge
+             have an edge function == 0 in BOTH triangles.

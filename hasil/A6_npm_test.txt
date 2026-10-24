@@ -1,0 +1,14 @@
+OK   E2 -- lineDDA (2,1)->(9,5) gives the 8-pixel staircase
+OK   E3 -- lineBresenham (2,1)->(9,5) matches DDA, integers only
+OK   lines -- all 8 octants: the reflected segment has the same length
+OK   E4 -- edge-function signs for A(1,1) B(6,2) C(3,7)
+OK   E5 -- barycentric interpolation 10/20/40 at (.5,.25,.25) = 20
+OK   top-left rule -- 6x6 square split on y=x: every pixel covered once
+OK   no top-left rule -- same square shows the seam (>=0: doubles; >0: gaps)
+OK   E1 -- sample-centre: a 2x2 rect at (1,1) lights exactly (1,1),(2,1),(1,2),(2,2)
+OK   plan -- worldToScreen flips y once and is invertible on a known point
+OK   reference raster -- draw_square fill is byte-identical to ref/square_fill_ref.ppm
+OK   myplan -- loads, every point fits the 600x800 framebuffer, web/ copy is identical
+OK   asterisk -- 24 spokes every 15 deg reach their endpoint; Euclidean length equal within 1 px
+
+ALL CHECKS PASSED  (12 ok, 0 fail)

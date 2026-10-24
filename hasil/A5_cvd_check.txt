@@ -1,0 +1,13 @@
+normal L*: {'wall': 43, 'cella': 15, 'stair': 55, 'shrine': 29, 'axis': 68}
+  min pairwise dE76: 22.8 (cella vs shrine)
+deuteranopia L*: {'wall': 34, 'cella': 24, 'stair': 40, 'shrine': 30, 'axis': 51}
+  min pairwise dE76: 7.7 (wall vs shrine)
+protanopia L*: {'wall': 36, 'cella': 22, 'stair': 45, 'shrine': 30, 'axis': 56}
+  min pairwise dE76: 6.9 (wall vs shrine)
+grayscale L*: {'wall': 43, 'cella': 15, 'stair': 55, 'shrine': 29, 'axis': 68}
+  min pairwise dE76: 12.2 (wall vs stair)
+wall contrast vs bg 5.38:1
+cella contrast vs bg 13.98:1
+stair contrast vs bg 3.47:1
+shrine contrast vs bg 8.84:1
+axis contrast vs bg 2.25:1
